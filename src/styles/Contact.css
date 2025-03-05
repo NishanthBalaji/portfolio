@@ -1,0 +1,159 @@
+.section4 {
+    width: 100vw;
+    height: 50vh;
+    justify-content: space-between;
+}
+
+.section4 .contact {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.conatact-me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-me a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(255, 62, 62);
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 55%;
+}
+
+/* .navigation a {
+    color: black;
+    text-decoration: none;
+    margin-top: 16px;
+    margin-bottom: 16px;
+} */
+
+
+
+
+.section4 .navigation {
+    width: 100vw;
+    margin-top: 30px;
+}
+
+.section4 a {
+    color: white;
+}
+
+.section4 .contact-logo {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.contact-logo img {
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+}
+
+.section4 h3 {
+    margin: 0;
+    height: 100px;
+    width: 90%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    font-size: clamp(40px, 12vw, 70px);
+    opacity: 0.3;
+    /* line-height: 30px; */
+}
+
+.footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+}
+
+.section4 .footer {
+    background-color: rgb(45, 45, 111);
+    color: white;
+}
+
+
+
+@media(min-width:550px) {
+    .section {
+        height: 100vh;
+
+    }
+
+    .contact {
+        width: 75vw;
+        height: 75vh;
+        display: flex;
+        align-items: flex-start;
+        margin-top: 0px;
+        margin-bottom: 70px;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .section4 .footer {
+        height: max-content;
+    }
+
+    .contact h2 {
+        font-size: 50px;
+        color: rgb(255, 62, 62);
+        margin-bottom: 0px;
+    }
+
+    .contact p {
+        font-size: 25px;
+    }
+}
+
+
+
+@media (min-width:800px) {
+
+    .section4 {
+        margin-top: 50px;
+    }
+
+
+    .section4 .footer {
+        height: max-content;
+    }
+
+    .nav-logo {
+        margin-top: 70px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex: 1;
+    }
+
+    .footer .navigation {
+        margin-top: 0px;
+    }
+
+    .contact-logo {
+        padding: 0px;
+    }
+
+}
