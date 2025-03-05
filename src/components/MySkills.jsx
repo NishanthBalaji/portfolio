@@ -1,6 +1,19 @@
 import React from 'react'
 import '../styles/MySkills.css'
 
+import htmlLogo from "../assets/HTML.png";
+import cssLogo from "../assets/CSS.png";
+import jsLogo from "../assets/Javascript.svg";
+import reactLogo from "../assets/React.png";
+import nodeLogo from "../assets/NodeJs.svg";
+import expressLogo from "../assets/Express.png";
+import mongoDBLogo from "../assets/MongoDB.svg";
+import apiLogo from "../assets/Api.svg";
+import MUILogo from "../assets/MaterialUI.svg";
+import gitLogo from "../assets/Git.svg";
+import githubLogo from "../assets/Github.svg";
+import bootstrapLogo from "../assets/bootstrap.svg"
+
 const MySkills = () => {
     return (
         <section className='section section3' id='skills'>
@@ -20,18 +33,18 @@ const MySkills = () => {
                 </div>
 
                 <div className='my-skills'>
-                    <img className='skill-logo' src="src\assets\HTML.png" alt="HTML Logo" />
-                    <img className='skill-logo' src="src\assets\CSS.png" alt="CSS Logo" />
-                    <img className='skill-logo' src="src\assets\Javascript.svg" alt="Javascript Logo" />
-                    <img className='skill-logo' src="src\assets\React.png" alt="React Logo" />
-                    <img className='skill-logo' src="src\assets\NodeJs.svg" alt="Node.js Logo" />
-                    <img className='skill-logo' src="src\assets\Express.png" alt="Express.js Logo" />
-                    <img className='skill-logo' src="src\assets\MongoDB.svg" alt="MongoDB Logo" />
-                    <img className='skill-logo' src="src\assets\Api.svg" alt="API Logo" />
-                    <img className='skill-logo' src="src\assets\bootstrap.svg" alt="Bootstrap Logo" />
-                    <img className='skill-logo' src="src\assets\MaterialUI.svg" alt="Material UI Logo" />
-                    <img className='skill-logo' src="src\assets\Git.svg" alt="Git Logo" />
-                    <img className='skill-logo' src="src\assets\Github.svg" alt="GitHub Logo" />
+                    <img className='skill-logo' src={htmlLogo} alt="HTML Logo" />
+                    <img className='skill-logo' src={cssLogo} alt="CSS Logo" />
+                    <img className='skill-logo' src={jsLogo} alt="Javascript Logo" />
+                    <img className='skill-logo' src={reactLogo} alt="React Logo" />
+                    <img className='skill-logo' src={nodeLogo} alt="Node.js Logo" />
+                    <img className='skill-logo' src={expressLogo} alt="Express.js Logo" />
+                    <img className='skill-logo' src={mongoDBLogo} alt="MongoDB Logo" />
+                    <img className='skill-logo' src={apiLogo} alt="API Logo" />
+                    <img className='skill-logo' src={bootstrapLogo} alt="Bootstrap Logo" />
+                    <img className='skill-logo' src={MUILogo} alt="Material UI Logo" />
+                    <img className='skill-logo' src={gitLogo} alt="Git Logo" />
+                    <img className='skill-logo' src={githubLogo} alt="GitHub Logo" />
                 </div>
             </section>
 

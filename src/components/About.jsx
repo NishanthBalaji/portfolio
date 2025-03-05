@@ -1,6 +1,9 @@
 import React from 'react'
 import { Typewriter } from "react-simple-typewriter";
 
+import myLogo from "../assets/nb.jpg";
+import myImg from "../assets/myimg.jpg";
+
 import '../styles/About.css'
 
 const About = () => {
@@ -8,13 +11,7 @@ const About = () => {
         <section className='section section1'>
             <div className='name-nav'>
                 <section className='for-pc'>
-                    {/* <img src="src\assets\n.svg" alt="" />
-                    <span className='fname'>ishanth</span>
-
-                    <img src="src\assets\b.svg" alt="" />
-                    <span className='lname'>alaji</span> */}
-
-                    <img src="src\assets\nb.jpg" alt="" />
+                    <img src={myLogo} alt="myLogo" />
                 </section>
                 <nav className='navigation'>
                     <a href="#projects">Projects</a>
@@ -55,7 +52,7 @@ const About = () => {
                 </header>
 
                 <main className='my-img'>
-                    <img src="src\assets\myimg.jpg" alt="My Image" />
+                    <img src={myImg} alt="My Image" />
                 </main>
             </div>
 

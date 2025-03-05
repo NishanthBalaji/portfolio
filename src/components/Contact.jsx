@@ -1,6 +1,10 @@
 import React from 'react'
-
 import '../styles/Contact.css'
+
+import linkedinLogo from "../assets/linkedin-white.svg";
+import githubLogo from "../assets/Github-white.svg";
+import mailLogo from "../assets/mail-white.svg";
+import instaLogo from "../assets/insta-white.svg";
 
 const Contact = () => {
     return (
@@ -26,10 +30,10 @@ const Contact = () => {
                     </nav>
 
                     <section className='contact-logo'>
-                        <a href="https://www.linkedin.com/in/nishanth-balaji-360039226/" target='_blank'><img className='skill-logo' src="src\assets\linkedin-white.svg" alt="LinkedIn Logo" /></a>
-                        <a href="https://github.com/NishanthBalaji" target='_blank'><img className='skill-logo' src="src\assets\Github-white.svg" alt="GitHub Logo" /></a>
-                        <a href="mailto:iamnishanthbalaji@gmail.com" target='_blank'><img className='skill-logo' src="src\assets\mail-white.svg" alt="Mail Logo" /></a>
-                        <a href="https://www.instagram.com/_nishanth.007_/" target='_blank'><img className='skill-logo' src="src\assets\insta-white.svg" alt="Instagram Logo" /></a>
+                        <a href="https://www.linkedin.com/in/nishanth-balaji-360039226/" target='_blank'><img className='skill-logo' src={linkedinLogo} alt="LinkedIn Logo" /></a>
+                        <a href="https://github.com/NishanthBalaji" target='_blank'><img className='skill-logo' src={githubLogo} alt="GitHub Logo" /></a>
+                        <a href="mailto:iamnishanthbalaji@gmail.com" target='_blank'><img className='skill-logo' src={mailLogo} alt="Mail Logo" /></a>
+                        <a href="https://www.instagram.com/_nishanth.007_/" target='_blank'><img className='skill-logo' src={instaLogo} alt="Instagram Logo" /></a>
                     </section>
 
                 </div>
