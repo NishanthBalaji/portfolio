@@ -1,0 +1,145 @@
+.page2-for-pc {
+    display: none !important;
+}
+
+.page2-for-pc {
+    /* background-color: rgb(195, 195, 195); */
+    width: 100vw !important;
+    height: 100vh !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.page2-header {
+    /* border: 1px solid black; */
+    width: 100vw;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.projects {
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.project {
+    min-width: 80vw !important;
+    min-height: 50% !important;
+    height: 83vh;
+    margin: 0px 50px;
+    /* border: 1px solid rgb(255, 0, 0); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+    border-radius: 10px;
+}
+
+.project:hover {
+    box-shadow: 0px 0px 20px red;
+    transform: scale(1.025);
+}
+
+.container {
+    /* border: 1px solid rgb(255, 255, 255); */
+    width: 65vw;
+    height: 95%;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+    padding: 50px;
+    border-radius: 10px;
+
+}
+
+.project h2 {
+    font-size: 2rem;
+    /* border: 1px solid black; */
+    padding: 20px 0px;
+    color: white;
+}
+
+.project p {
+    font-size: 1rem;
+    padding: 0px 0px 40px 0px;
+    color: white;
+}
+
+.project a {
+    background-color: rgb(254, 0, 0);
+    color: white;
+    padding: 20px 40px;
+    /* padding-top: 10px !important; */
+    text-decoration: none;
+    text-align: center;
+}
+
+.my-skills-project {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-row-gap: 30px;
+    flex: 1;
+    margin: 20px 50px 0px 50px;
+}
+
+.project-text {
+    flex: 1;
+    padding: 20px 10px;
+}
+
+.skill-logo-project {
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+    align-items: center;
+    transition: transform 0.5s;
+}
+
+.skill-logo-project:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.597));
+}
+
+/* .skill-logo-project img:hover {
+    box-shadow: 0px 0px 20px red;
+} */
+
+
+
+.project1 {
+    margin-left: 80px;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://res.cloudinary.com/dkywndf0x/image/upload/v1745047922/fff_sjjkuz.png');
+    background-size: cover;
+}
+
+
+
+.project2 {
+    background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url('https://res.cloudinary.com/dkywndf0x/image/upload/v1745047921/quiz_fbqifo.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.project3 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url('https://res.cloudinary.com/dkywndf0x/image/upload/v1745047922/tnt_krjcna.png');
+    background-size: cover;
+    background-position: center;
+}
+
+@media (min-width: 1069px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .page2-for-pc {
+        display: block !important;
+    }
+}

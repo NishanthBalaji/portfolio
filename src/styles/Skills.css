@@ -1,0 +1,176 @@
+.page3 {
+    width: 100vw;
+    height: max-content;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.text-skill {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.my-text h2 {
+    padding: 20px 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.my-text p {
+    margin-bottom: 20px;
+}
+
+.my-text p:nth-last-child(1) {
+    margin-bottom: 30px;
+}
+
+.section3 .my-text {
+    height: max-content;
+    width: 95%;
+    /* text-align: justify; */
+    font-size: 15px;
+}
+
+.my-skills {
+    /* padding-top: 20px; */
+    height: max-content;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 120px 120px 120px;
+    place-items: center;
+}
+
+.skill-logo {
+    width: 70px;
+    height: 60px;
+    padding: 2px;
+    transition: all 1s;
+}
+
+.skill-logo:hover {
+    cursor: pointer;
+}
+
+
+.skill-logo[alt*="HTML"]:hover {
+    filter: drop-shadow(0 0 20px #e94c25);
+}
+
+.skill-logo[alt*="CSS"]:hover {
+    filter: drop-shadow(0 0 20px #155afb);
+}
+
+.skill-logo[alt*="Java"]:hover {
+    filter: drop-shadow(0 0 20px #fefe15);
+}
+
+.skill-logo[alt*="React"]:hover {
+    filter: drop-shadow(0 0 20px #15a1fe);
+}
+
+.skill-logo[alt*="Node"]:hover {
+    filter: drop-shadow(0 0 15px #26632a);
+}
+
+.skill-logo[alt*="Ex"]:hover {
+    filter: drop-shadow(0 0 20px #515151);
+}
+
+.skill-logo[alt*="Mongo"]:hover {
+    filter: drop-shadow(0 0 15px #26632a);
+}
+
+.skill-logo[alt*="API"]:hover {
+    filter: drop-shadow(0 0 30px #155afb);
+}
+
+.skill-logo[alt*="Boot"]:hover {
+    filter: drop-shadow(0 0 15px #8d30ff);
+}
+
+.skill-logo[alt*="Material UI"]:hover {
+    filter: drop-shadow(0 0 15px #2080fe);
+}
+
+.skill-logo[alt*="Git"]:hover {
+    filter: drop-shadow(0 0 15px #e94c25);
+}
+
+.skill-logo[alt*="GitHub"]:hover {
+    filter: drop-shadow(0 0 15px #000000);
+}
+
+@media(min-width:550px) {
+    .my-skills {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .section {
+        height: 100vh;
+
+    }
+
+    .section3 .my-text {
+        font-size: 20px;
+        padding-top: 50px;
+    }
+
+    .my-text h2 {
+        padding-bottom: 30px;
+    }
+
+    .text-skill {
+        padding-bottom: 75px;
+    }
+}
+
+
+
+@media (min-width:800px) {
+
+
+    .section3 {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .text-skill {
+        flex-direction: row;
+    }
+
+    .my-text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 1.2rem;
+
+    }
+
+    .my-text p {
+        width: 90%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .my-skills {
+        margin-top: 80px;
+        height: 80vh;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+
+    .skill-logo {
+        width: 100px;
+        height: 100px;
+        padding: 20px;
+    }
+}
