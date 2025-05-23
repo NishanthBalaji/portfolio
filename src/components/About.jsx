@@ -64,7 +64,7 @@ const About = () => {
                         </h2>
                         <p>Welcome to my portfolio, where I showcase my journey in building intuitive and dynamic web applications. Here, you'll find my projects, skills, and the experiences that shape my growth as a developer.</p>
 
-                        <a href="https://drive.google.com/file/d/1Vz0UJS76pR1qD3FjBRsF6AssPdHYFEnj/view?usp=drive_link" target='_blank' className='btn'>View Resume</a>
+                        <a href="https://drive.google.com/file/d/1AqP5hsUkr6I9J8GrgiXo9Sw5pJMd_puq/view?usp=sharing" target='_blank' className='btn'>View Resume</a>
 
                     </section>
 
