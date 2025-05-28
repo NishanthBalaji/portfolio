@@ -28,8 +28,10 @@ export const contactGSAP = () => {
         const tl5 = gsap.timeline({
             scrollTrigger: {
                 trigger: '.contact',
-                start: 'top 35%',
-                end: 'top 16%',
+                // start: 'top 35%',
+                // end: 'top 25%',
+                start: 'top 350vh',
+                end: 'top 350vh',
                 toggleActions: 'restart pause reverse none',
                 // markers: true,
                 scrub: 3,

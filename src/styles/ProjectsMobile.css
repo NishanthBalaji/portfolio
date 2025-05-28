@@ -73,11 +73,12 @@
     padding: 1.75% 5%;
     text-decoration: none;
     text-align: center;
+    border-radius: 7.5px;
 }
 
 
 .my-skills-project-m {
-    border: 1px solid white;
+    /* border: 1px solid white; */
     display: grid;
     align-items: center;
     justify-content: center;

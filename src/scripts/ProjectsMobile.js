@@ -5,65 +5,75 @@ gsap.registerPlugin(ScrollTrigger);
 
 export const projectsMobileGSAP = () => {
     gsap.matchMedia().add("(max-width: 960px)", () => {
-        const tl3 = gsap.timeline({
+        const project1 = gsap.timeline({
             scrollTrigger: {
-                trigger: '.projects-m',
-                start: 'top 90%',
-                end: 'top 20%',
+                trigger: '.project1-m',
+                start: 'top 75%',
+                end: 'top 50%',
                 // markers: true,
-                // pinType: "transform",
-                scrub: 2,
+                scrub: true,
             }
         })
 
-        tl3.from('.project1-m .my-skills-project-m img', {
-            x: -300,
+        project1.fromTo('.project1-m .my-skills-project-m img', {
+            y: -200,
+            x: -800
+
+        }, {
+            y: 0,
+            x: 0,
+            duration: 50,
             stagger: {
-                amount: 0.5,
-                from: "random",
-                axis: "x",
+                amount: 30
             }
         })
 
-        const tl4 = gsap.timeline({
+        const project2 = gsap.timeline({
             scrollTrigger: {
                 trigger: '.project2-m',
-                start: 'top 90%',
-                end: 'top 20%',
+                start: 'top 85%',
+                end: 'top 50%',
                 // markers: true,
-                // pinType: "transform",
-                scrub: 2,
+                scrub: true,
             }
         })
 
-        tl4.from('.project2-m .my-skills-project-m img', {
-            x: -300,
+        project2.fromTo('.project2-m .my-skills-project-m img', {
+            y: -200,
+            x: 800
+
+        }, {
+            y: 0,
+            x: 0,
+            duration: 50,
             stagger: {
-                amount: 0.5,
-                from: "random",
-                axis: "x",
+                amount: 30,
             }
         })
 
-        const tl5 = gsap.timeline({
+        const project3 = gsap.timeline({
             scrollTrigger: {
                 trigger: '.project3-m',
-                start: 'top 90%',
-                end: 'top 20%',
+                start: 'top 85%',
+                end: 'top 50%',
                 // markers: true,
-                // pinType: "transform",
-                scrub: 2,
+                scrub: true,
             }
         })
 
-        tl5.from('.project3-m .my-skills-project-m img', {
-            x: -300,
+        project3.fromTo('.project3-m .my-skills-project-m img', {
+            y: -200,
+            x: -800
+
+        }, {
+            y: 0,
+            x: 0,
+            duration: 50,
             stagger: {
-                amount: 0.5,
-                from: "random",
-                axis: "x",
+                amount: 30
             }
         })
+
     })
 
     window.addEventListener('load', () => {
